@@ -1,5 +1,9 @@
 name: 05-2. Hello World Composite
-
+on:
+  pull_request:
+     branches: [main]
+  workflow_dispatch:    
+  
 on: 
   [workflow_dispatch]
 
